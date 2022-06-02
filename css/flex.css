@@ -1,0 +1,65 @@
+.flex-container{
+    display: flex;
+    border:  1px solid black;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.item{
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-1{
+    flex: 1;
+    /*grow = 1., shrink =1 , basis=0 */
+}
+
+.largura{
+    width: 200px;
+    /*min-width: 250px;*/
+}
+.flex-2{
+    flex: 2;
+    /*grow = 2, shrink =1 , basis=0 */
+}
+
+.flex-container2{
+    display: flex;
+    max-width: 350px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.item2{
+    flex: 1;
+    background: brown;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+ 
+}
+
+.o1{
+    order: 1;
+}
+
+.o2{
+    order: 2;
+}
+
+.o3{
+    order: 3;
+}
+.o4{
+    order: 4;
+}
+
+.direction{
+    flex-direction: column;
+}
+
